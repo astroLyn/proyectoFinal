@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #000; /* Mantener texto negro en todo */
+}
+
+/* Centered Report Card */
+.report-card {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #000;
+}
+
+.report-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+    text-align: center;
+}
+
+.report-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.report-card strong {
+    font-weight: bold;
+    color: #333;
+}
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #fca311;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #D9663D;
+    color: #210F26;
+}
+
+.btn-secondary {
+    background-color: #14213d;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background-color: #394867;
+    color: #fca311;
+}
